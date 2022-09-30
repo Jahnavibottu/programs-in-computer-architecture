@@ -1,0 +1,5 @@
+m=int(input("enter the starting number of range:"))
+n=int(input("enter the ending number of range:"))
+k=int(input("enter the numbers to be skipped in range:"))
+for i in range(m,n+1,k):
+    print("the numbers are: ",i)
